@@ -1,0 +1,77 @@
+
+
+header{
+    height: 80px;
+    width: 100%; 
+    border-bottom: 1px solid #e8e8e8;
+    display: flex; 
+    justify-content: space-between;
+
+    .itg-logo{
+        margin-left: 15px;
+        align-self:center;
+        width: 250px;
+    }
+    
+    .link-pages{
+        width: 250px;
+        ul li{ 
+            display: inline;
+            margin-right: 15px;
+        } 
+        .itg-search{ 
+            margin-top: 15px; 
+            width: 250px;
+            
+            input{
+                box-shadow: 0 0 5px 0 dodgerBlue;
+                width: 230px;
+                padding-left: 30px;
+                border-radius: 50px;
+            }
+
+            .itg-icon-search{
+                position: absolute; 
+            }
+
+            span{
+                margin: 6px 0 0 10px;
+            }
+        
+        }
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .itg-header {
+        display: inline-block;  
+        height: 110px;
+    }
+    .link-pages{
+        width: 100%;
+     
+
+        }
+        
+  
+    }
+    .itg-menu {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+
+        span{
+            background: #1d1d1b;
+            display: block;
+            width: 30px;
+            height: 4px;
+            border-radius: 5px;
+            margin-bottom: 5px; 
+            transition: all 0.3s linear;
+        }
+    }
+     
+}

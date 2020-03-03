@@ -1,0 +1,67 @@
+header {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+}
+header .itg-logo {
+  margin-left: 15px;
+  align-self: center;
+  width: 250px;
+}
+header .link-pages {
+  width: 250px;
+}
+header .link-pages ul li {
+  display: inline;
+  margin-right: 15px;
+}
+header .link-pages .itg-search {
+  margin-top: 15px;
+  width: 250px;
+}
+header .link-pages .itg-search input {
+  box-shadow: 0 0 5px 0 dodgerBlue;
+  width: 230px;
+  padding-left: 30px;
+  border-radius: 50px;
+}
+header .link-pages .itg-search .itg-icon-search {
+  position: absolute;
+}
+header .link-pages .itg-search span {
+  margin: 6px 0 0 10px;
+}
+@media screen and (max-width: 576px) {
+  .itg-header {
+    display: inline-block;
+    height: 110px;
+  }
+  .link-pages {
+    width: 100%;
+  }
+  .link-pages ul {
+    position: absolute;
+    right: 15px;
+  }
+  .link-pages .itg-search input {
+    margin-top: 20px;
+  }
+  .itg-menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+  .itg-menu span {
+    background: #1d1d1b;
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 0.3s linear;
+  }
+}

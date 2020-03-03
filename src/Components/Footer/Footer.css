@@ -1,0 +1,32 @@
+.itg-footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.itg-footer div {
+  flex: 1;
+  padding: 15px;
+}
+.itg-footer div:nth-child(2) {
+  flex: 1.2;
+}
+.itg-footer div ul li {
+  display: inline;
+  padding-right: 15px;
+}
+.itg-footer .itg-name,
+.itg-footer .itg-mysite {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itg-footer .itg-name {
+  margin-left: 20px;
+}
+@media screen and (max-width: 576px) {
+  .itg-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,96 @@
+ 
+section{
+    border-bottom: 1px solid #e8e8e8;
+    input{
+        margin: 15px 0 0 15px;
+    }
+    .itg-products{
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        flex-wrap: wrap;
+        // background: gray ;
+        background: #f7f7f7 ;
+
+        margin: 30px;
+
+        .itg-product{
+            position: relative;
+            background: white ;
+            width: 320px;
+            height: 420px;
+            border: 1px solid #e8e8e8;
+            margin: 15px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            div{
+                display: flex;
+                justify-content: center;   
+            
+            }
+            p{
+                position: absolute;
+                width: 305px;
+                bottom: 0px;
+                text-align: center;
+                font-size: 1.17em;
+
+            }
+            h3{  
+                font-size: 1.17em;
+                font-weight: bold;
+                
+
+            }
+        }
+    }
+ 
+
+/* //------------------------------- */
+    
+}
+@media screen and (max-width: 576px) {
+    section{
+    .itg-products{  
+        .itg-product{ 
+            width: 100%;
+            height: 450px;
+
+             
+        }
+    }
+}
+   
+  
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+   
+    section{
+        .itg-products{ 
+            
+            background: red; 
+            .itg-product{ 
+                width: 45%;
+                height: 450px;
+                 
+            }
+        }
+    }
+}
+  
+@media screen and (min-width: 769px)and (max-width: 992px)   {
+ 
+    section{
+        .itg-products{  
+            position: relative;
+            // background: red;
+            .itg-product{ 
+                width: 30%;
+                height: 450px;
+                    
+                 
+            }
+        }
+    }
+}
